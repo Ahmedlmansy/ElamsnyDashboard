@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/framwork.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/all.minfo.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet" />
+    <title>Files</title>
+</head>
+
+<body>
+    <div class="page d-flex">
+        <div class="sidebar bg-white  position-relative">
+            <h3 class="position-relative mt-0 text-center">
+                Elmansy
+            </h3>
+            <ul class="p-0">
+                <li>
+                    <a href="index.html" class=" li-saidbar d-flex align-items-center p-10 rad-6 ">
+                        <i class="fa-solid fa-chart-simple fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-items-center li-saidbar rad-6 p-10" href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-items-center li-saidbar rad-6 p-10" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-items-center  li-saidbar rad-6 p-10" href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="  d-flex align-items-center li-saidbar rad-6 p-10" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex  align-items-center li-saidbar rad-6 p-10" href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex active align-items-center li-saidbar rad-6 p-10" href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-items-center li-saidbar rad-6 p-10" href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="contnet w-100  ">
+            <div class="head bg-white d-flex align-items-center justify-content-between">
+                <div class="search position-relative">
+                    <input class="p-10" type="search" placeholder="Type A Keyword ">
+                </div>
+                <div class="icon d-flex align-items-center">
+                    <span class=" notification position-relative ">
+                        <i class="fa-regular m-1 fa-bell fa-lg"></i>
+                    </span>
+                    <img src="img/avatar.png" alt="">
+                </div>
+
+            </div>
+            <h1 class="position-relative">
+                Files
+            </h1>
+
+
+            <div class="files-page d-flex m-20 gab-20">
+                
+                <div class="p-20 file-stats bg-fff rad-10">
+                    <h2 class="mt-0 mb-3 t-c-m"> Files Statistics </h2>
+                    <div class="d-flex p-10 align-items-center b-eee rad-6 fs-13 mb-3">
+                        <i class="fa-regular fa-file-pdf fa-lg blue d-flex justify-content-center align-items-center c-blue icon"></i>
+                        <div class="info">
+                            <span>PDF Files</span>
+                            <span class="c-gray d-block mt-1">130</span>
+                        </div>
+                        <div class="size">
+                            6.5GB
+                        </div>
+                    </div>
+
+                    <div class="d-flex p-10 align-items-center b-eee rad-6 fs-13 mb-3">
+                        <i class="fa-regular fa-images fa-lg  green d-flex justify-content-center align-items-center c-green icon"></i>
+                        <div class="info">
+                            <span>Images</span>
+                            <span class="c-gray d-block mt-1">115 Files </span>
+                        </div>
+                        <div class="size">
+                            3.5GB
+                        </div>
+                    </div>
+
+
+                    <div class="d-flex p-10 align-items-center b-eee rad-6 fs-13 mb-3">
+                        <i class="fa-regular fa-file-word fa-lg red d-flex justify-content-center align-items-center c-red icon"></i>
+                        <div class="info">
+                            <span>Word Files</span>
+                            <span class="c-gray d-block mt-1">110 Files</span>
+                        </div>
+                        <div class="size">
+                            3.2GB
+                        </div>
+                    </div>
+
+
+                    <div class="d-flex p-10 align-items-center b-eee rad-6 fs-13 mb-3">
+                        <i class="fa-solid fa-file-csv fa-lg orange  c-orange icon d-flex justify-content-center align-items-center  icon"></i>
+                        <div class="info">
+                            <span>CSV Files</span>
+                            <span class="c-gray d-block mt-1">99 Files</span>
+                        </div>
+                        <div class="size">
+                            3.1GB
+                        </div>
+                    </div>
+
+                    <a href="#" class="uploda bg-blue w-fit c-fff btn-shep rad-6 d-block">
+                        <i class="fa-solid fa-angles-up mr-2"></i>
+                        Uploda
+                    </a>
+                </div>
+                <div class="files-content  d-grid gab-20 ">
+
+
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/pdf.svg" >
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.pdf
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/avi.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-Avi.Avi
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">02MB</span>
+                        </div>
+                    </div>
+
+
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/psd.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.psd
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+
+
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/sql.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.sql
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+
+
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/txt.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.text
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+
+
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/zip.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.zip
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/pdf.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.pdf
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+                    
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/avi.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-Avi.Avi
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">02MB</span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/psd.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.psd
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/sql.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.sql
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/txt.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.text
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/zip.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.zip
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+
+
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/pdf.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.pdf
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+                    
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/avi.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-Avi.Avi
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">02MB</span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/psd.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.psd
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/sql.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.sql
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/txt.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.text
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/zip.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.zip
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/pdf.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.pdf
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+                    
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/avi.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-Avi.Avi
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">02MB</span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/psd.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.psd
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/sql.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.sql
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/txt.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.text
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/zip.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.zip
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/pdf.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.pdf
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+                    
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/avi.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-Avi.Avi
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">02MB</span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/psd.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.psd
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/sql.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.sql
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/txt.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.text
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="file rad-10 p-10 bg-fff">
+                        <i class="fa-solid fa-download c-gray position-absolute"></i>
+                        <div class="icon text-center">
+                            <img class="mb-3 mt-3" src="img/zip.svg">
+                        </div>
+                        <div class="text-center mb-2 fs-14">
+                            My-file.zip
+                        </div>
+                        <p class="fs-13 c-gray">Elmansy</p>
+                        <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+                            <span class="c-gray">12/10/2003</span>
+                            <span class="c-gray">12MB</span>
+                        </div>
+                    </div>
+
+
+<div class="file rad-10 p-10 bg-fff">
+    <i class="fa-solid fa-download c-gray position-absolute"></i>
+    <div class="icon text-center">
+        <img class="mb-3 mt-3" src="img/pdf.svg">
+    </div>
+    <div class="text-center mb-2 fs-14">
+        My-file.pdf
+    </div>
+    <p class="fs-13 c-gray">Elmansy</p>
+    <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+        <span class="c-gray">12/10/2003</span>
+        <span class="c-gray">12MB</span>
+    </div>
+</div>
+
+<div class="file rad-10 p-10 bg-fff">
+    <i class="fa-solid fa-download c-gray position-absolute"></i>
+    <div class="icon text-center">
+        <img class="mb-3 mt-3" src="img/avi.svg">
+    </div>
+    <div class="text-center mb-2 fs-14">
+        My-Avi.Avi
+    </div>
+    <p class="fs-13 c-gray">Elmansy</p>
+    <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+        <span class="c-gray">12/10/2003</span>
+        <span class="c-gray">02MB</span>
+    </div>
+</div>
+
+
+<div class="file rad-10 p-10 bg-fff">
+    <i class="fa-solid fa-download c-gray position-absolute"></i>
+    <div class="icon text-center">
+        <img class="mb-3 mt-3" src="img/psd.svg">
+    </div>
+    <div class="text-center mb-2 fs-14">
+        My-file.psd
+    </div>
+    <p class="fs-13 c-gray">Elmansy</p>
+    <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+        <span class="c-gray">12/10/2003</span>
+        <span class="c-gray">12MB</span>
+    </div>
+</div>
+
+
+<div class="file rad-10 p-10 bg-fff">
+    <i class="fa-solid fa-download c-gray position-absolute"></i>
+    <div class="icon text-center">
+        <img class="mb-3 mt-3" src="img/sql.svg">
+    </div>
+    <div class="text-center mb-2 fs-14">
+        My-file.sql
+    </div>
+    <p class="fs-13 c-gray">Elmansy</p>
+    <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+        <span class="c-gray">12/10/2003</span>
+        <span class="c-gray">12MB</span>
+    </div>
+</div>
+
+
+<div class="file rad-10 p-10 bg-fff">
+    <i class="fa-solid fa-download c-gray position-absolute"></i>
+    <div class="icon text-center">
+        <img class="mb-3 mt-3" src="img/txt.svg">
+    </div>
+    <div class="text-center mb-2 fs-14">
+        My-file.text
+    </div>
+    <p class="fs-13 c-gray">Elmansy</p>
+    <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+        <span class="c-gray">12/10/2003</span>
+        <span class="c-gray">12MB</span>
+    </div>
+</div>
+
+
+<div class="file rad-10 p-10 bg-fff">
+    <i class="fa-solid fa-download c-gray position-absolute"></i>
+    <div class="icon text-center">
+        <img class="mb-3 mt-3" src="img/zip.svg">
+    </div>
+    <div class="text-center mb-2 fs-14">
+        My-file.zip
+    </div>
+    <p class="fs-13 c-gray">Elmansy</p>
+    <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+        <span class="c-gray">12/10/2003</span>
+        <span class="c-gray">12MB</span>
+    </div>
+</div>
+
+
+<div class="file rad-10 p-10 bg-fff">
+    <i class="fa-solid fa-download c-gray position-absolute"></i>
+    <div class="icon text-center">
+        <img class="mb-3 mt-3" src="img/pdf.svg">
+    </div>
+    <div class="text-center mb-2 fs-14">
+        My-file.pdf
+    </div>
+    <p class="fs-13 c-gray">Elmansy</p>
+    <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+        <span class="c-gray">12/10/2003</span>
+        <span class="c-gray">12MB</span>
+    </div>
+</div>
+
+<div class="file rad-10 p-10 bg-fff">
+    <i class="fa-solid fa-download c-gray position-absolute"></i>
+    <div class="icon text-center">
+        <img class="mb-3 mt-3" src="img/avi.svg">
+    </div>
+    <div class="text-center mb-2 fs-14">
+        My-Avi.Avi
+    </div>
+    <p class="fs-13 c-gray">Elmansy</p>
+    <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+        <span class="c-gray">12/10/2003</span>
+        <span class="c-gray">02MB</span>
+    </div>
+</div>
+
+
+<div class="file rad-10 p-10 bg-fff">
+    <i class="fa-solid fa-download c-gray position-absolute"></i>
+    <div class="icon text-center">
+        <img class="mb-3 mt-3" src="img/psd.svg">
+    </div>
+    <div class="text-center mb-2 fs-14">
+        My-file.psd
+    </div>
+    <p class="fs-13 c-gray">Elmansy</p>
+    <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+        <span class="c-gray">12/10/2003</span>
+        <span class="c-gray">12MB</span>
+    </div>
+</div>
+
+
+<div class="file rad-10 p-10 bg-fff">
+    <i class="fa-solid fa-download c-gray position-absolute"></i>
+    <div class="icon text-center">
+        <img class="mb-3 mt-3" src="img/sql.svg">
+    </div>
+    <div class="text-center mb-2 fs-14">
+        My-file.sql
+    </div>
+    <p class="fs-13 c-gray">Elmansy</p>
+    <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+        <span class="c-gray">12/10/2003</span>
+        <span class="c-gray">12MB</span>
+    </div>
+</div>
+
+
+<div class="file rad-10 p-10 bg-fff">
+    <i class="fa-solid fa-download c-gray position-absolute"></i>
+    <div class="icon text-center">
+        <img class="mb-3 mt-3" src="img/txt.svg">
+    </div>
+    <div class="text-center mb-2 fs-14">
+        My-file.text
+    </div>
+    <p class="fs-13 c-gray">Elmansy</p>
+    <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+        <span class="c-gray">12/10/2003</span>
+        <span class="c-gray">12MB</span>
+    </div>
+</div>
+
+
+<div class="file rad-10 p-10 bg-fff">
+    <i class="fa-solid fa-download c-gray position-absolute"></i>
+    <div class="icon text-center">
+        <img class="mb-3 mt-3" src="img/zip.svg">
+    </div>
+    <div class="text-center mb-2 fs-14">
+        My-file.zip
+    </div>
+    <p class="fs-13 c-gray">Elmansy</p>
+    <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+        <span class="c-gray">12/10/2003</span>
+        <span class="c-gray">12MB</span>
+    </div>
+</div>
+
+
+<div class="file rad-10 p-10 bg-fff">
+    <i class="fa-solid fa-download c-gray position-absolute"></i>
+    <div class="icon text-center">
+        <img class="mb-3 mt-3" src="img/pdf.svg">
+    </div>
+    <div class="text-center mb-2 fs-14">
+        My-file.pdf
+    </div>
+    <p class="fs-13 c-gray">Elmansy</p>
+    <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+        <span class="c-gray">12/10/2003</span>
+        <span class="c-gray">12MB</span>
+    </div>
+</div>
+
+<div class="file rad-10 p-10 bg-fff">
+    <i class="fa-solid fa-download c-gray position-absolute"></i>
+    <div class="icon text-center">
+        <img class="mb-3 mt-3" src="img/avi.svg">
+    </div>
+    <div class="text-center mb-2 fs-14">
+        My-Avi.Avi
+    </div>
+    <p class="fs-13 c-gray">Elmansy</p>
+    <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+        <span class="c-gray">12/10/2003</span>
+        <span class="c-gray">02MB</span>
+    </div>
+</div>
+
+
+<div class="file rad-10 p-10 bg-fff">
+    <i class="fa-solid fa-download c-gray position-absolute"></i>
+    <div class="icon text-center">
+        <img class="mb-3 mt-3" src="img/psd.svg">
+    </div>
+    <div class="text-center mb-2 fs-14">
+        My-file.psd
+    </div>
+    <p class="fs-13 c-gray">Elmansy</p>
+    <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+        <span class="c-gray">12/10/2003</span>
+        <span class="c-gray">12MB</span>
+    </div>
+</div>
+
+
+<div class="file rad-10 p-10 bg-fff">
+    <i class="fa-solid fa-download c-gray position-absolute"></i>
+    <div class="icon text-center">
+        <img class="mb-3 mt-3" src="img/sql.svg">
+    </div>
+    <div class="text-center mb-2 fs-14">
+        My-file.sql
+    </div>
+    <p class="fs-13 c-gray">Elmansy</p>
+    <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+        <span class="c-gray">12/10/2003</span>
+        <span class="c-gray">12MB</span>
+    </div>
+</div>
+
+
+<div class="file rad-10 p-10 bg-fff">
+    <i class="fa-solid fa-download c-gray position-absolute"></i>
+    <div class="icon text-center">
+        <img class="mb-3 mt-3" src="img/txt.svg">
+    </div>
+    <div class="text-center mb-2 fs-14">
+        My-file.text
+    </div>
+    <p class="fs-13 c-gray">Elmansy</p>
+    <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+        <span class="c-gray">12/10/2003</span>
+        <span class="c-gray">12MB</span>
+    </div>
+</div>
+
+
+<div class="file rad-10 p-10 bg-fff">
+    <i class="fa-solid fa-download c-gray position-absolute"></i>
+    <div class="icon text-center">
+        <img class="mb-3 mt-3" src="img/zip.svg">
+    </div>
+    <div class="text-center mb-2 fs-14">
+        My-file.zip
+    </div>
+    <p class="fs-13 c-gray">Elmansy</p>
+    <div class="info d-flex mt-2 pt-2 fs-13 justify-content-between align-items-center">
+        <span class="c-gray">12/10/2003</span>
+        <span class="c-gray">12MB</span>
+    </div>
+</div>
+
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
